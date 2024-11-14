@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+.space-between{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userModal{
+    border-radius: 1rem;
+}
+.userModal input{
+    margin-bottom: .5rem;
+}
+.backdrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 10, .3);
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: blue;
+    color: yellow;
+    padding: 1rem;
+    gap: 1rem;
+    margin-top: 0;
+}
+.navbar li {
+    list-style-type: none;
+    font-size: x-large;
+
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:visited {
+    color: yellow;
+}
+.navbar a:hover {
+    color: white;
+}
+.user-list{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.user-list li{
+    
+    list-style-type: none;
+    background-color: yellow;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-container input {
+    margin-bottom: .5rem;
+    width: 25vh;
+    height: 3.5vh;
+    border-radius: .3rem;
+    border-color: blue;
+}
+
+.input-container textarea {
+    margin-bottom: .5rem;
+    width: 50vh;
+    height: 15vh;
+    border-radius: .3rem;
+    border-color: blue;
+}
+
+.input-container button {
+    background-color: white;
+    border-width: 2px;
+    border-color: rgb(0, 0, 137);
+    border-radius: 3px;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.postitem {
+    list-style: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.postitem button {
+    background-color: rgba(0, 0, 255, 0.66);
+    border-width: 2px;
+    border-color: rgb(0, 0, 137);
+    border-radius: 3px;
+    color: white;
+    width: 20vh;
+    margin: .3rem;
+}
+
+.postitem-input-container {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.postitem-input-container input {
+    margin-bottom: .5rem;
+    width: 25vh;
+    height: 3.5vh;
+    border-radius: .3rem;
+    border-color: blue;
+}
+
+.postitem-input-container textarea {
+    margin-bottom: .5rem;
+    width: 50vh;
+    height: 15vh;
+    border-radius: .3rem;
+    border-color: blue;
+}
+
+.postitem-input-container button {
+    background-color: white;
+    border-width: 2px;
+    border-color: rgb(0, 0, 137);
+    border-radius: 3px;
+}
